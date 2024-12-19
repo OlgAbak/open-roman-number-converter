@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --font1: Verdana, Tahoma;
+  }
+  
+  body {
+    width: 100%;
+    height: 115vh;
+    background-color: rgb(240, 172, 54);
+  }
+  h1 {
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 35px;
+  }
+   input {
+     position: relative;
+     padding: 5px;
+     width: 400px;
+     font-size: 40px;
+     font-family: "New Amsterdam", "Bebas Neue";
+     top: 10px;
+   } 
+  button {
+    position: relative;
+    padding: 15px;
+    width: 400px;
+    font-family: var(--font1);
+    font-size: 20px;
+    background-color: rgb(196, 37, 65);
+    top: 20px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  #convert-btn {
+    color: rgb(255, 255, 255);
+  }
+  #converter {
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 25px;
+  }
+  label {
+    position: relative;
+    bottom: 20px;
+  }
+  .converter {
+    border: 5px solid black;
+    width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+  }
+  .result {
+    border: 5px solid rgb(116, 5,240);
+    width: 600px;
+    margin: 20px auto;
+    padding: 4px;
+    background-color: rgb(5, 240, 208);
+  }
+  #output {
+    font-family: var(--font1);
+    font-size: 40px;
+    position: relative;
+  }
+  p {
+    position: absolute;
+    text-align: center;
+  font-weight: 800;
+  }
